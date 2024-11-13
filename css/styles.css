@@ -16,6 +16,7 @@
     --color-bg: rgb(0, 0, 0);
     --color-gold: rgb(218, 165, 32);
     --color-text: rgb(255, 255, 255);
+    --color-primaryT: rgba(0, 75, 133, .30);
 }
 
 html {
@@ -57,7 +58,7 @@ body::-webkit-scrollbar-thumb,
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
 
     overflow: hidden;
@@ -427,12 +428,10 @@ h4 {
     }
 }
 
-
-
-
-
 /* CAPITULOS ----------------------------------------------------------*/
 .main-chapters {
+    width: 100vw;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -440,8 +439,19 @@ h4 {
 
     position: relative;
     top: 7.5vh;
+}
+.background-capitulos{
+    width: 100vw;
+    height: 100vh;
 
-    height: auto;
+    position: absolute;
+    top: 0;
+    background-image: url(../images/info-media/Arc_FinalTrailer_Thumb_Textless.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-attachment: fixed;
+
+    z-index: -1;
 }
 
 .title-h1 {
@@ -687,8 +697,12 @@ hr {
 }
 
 /* HISTORIA ----------------------------------------------------------------*/
-.history{
+.history *{
     color: var(--color-gold);
+}
+.history p{
+    font-size: 1.6rem;
+    line-height: 3rem;
 }
 .history1{
     background-image: url(../images/history/00-background.jpg);
@@ -745,62 +759,6 @@ hr {
     height: 100vh;
 }
 
-/* HERO SECTION ---------------------------------------------------------------*/
-.season2-hero {
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    color: var(--color-gold);
-    text-shadow: 2px 4px 15px rgba(0, 0, 0, 0.7);
-    position: relative;
-    z-index: 1;
-}
-
-.season2-hero h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    -webkit-text-stroke: 2px black;
-}
-
-.season2-hero p {
-    font-size: 1.5rem;
-    margin: 1.5rem 0;
-}
-
-.hero-btn {
-    display: inline-block;
-    padding: 1.25rem 2.5rem;
-    background-color: rgb(93, 44, 39);
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border-radius: 30px;
-    -webkit-text-stroke: 0.5px black;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.hero-btn:hover {
-    background-color: rgb(55, 46, 51);
-    color: rgb(93, 44, 39);
-}
-
-/* PARA OSCURECER EL FONDO */
-.season2-hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
-    z-index: -1;
-}
 
 /* ESTILOS SEGUNDA TEMPORADA ---------------------------------------------------*/
 .season2-main{
@@ -829,7 +787,7 @@ hr {
 }
 
 .season2-section article {
-    width: 75%;
+    width: 100%;
     min-height: 92vh;
 
     display: flex;
@@ -854,6 +812,7 @@ hr {
     font-weight: 700;
 }
 .articulo__info p{
+    width: 75%;
     font-size: 1.5rem;
     text-wrap: balance;
 }
@@ -870,44 +829,58 @@ hr {
 
 .articulo__video iframe {
     width: 50%;
-    height: 50%;
+    height: 70%;
 
     padding: 3%;
 }
 
+.section2-background, .section2-background2{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.section2-background{
+    background-image: url(../images/history/01-piltover.jpg);
+}
+.section2-background2{
+    background-image: url(../images/history/02-zaun.jpg);
+}
 
 /*INFORMACION--------------------------------------------------------*/
-.main{
+.info-main{
     display: inline-block;
-    width: 100%;
     position: relative;
-    top: 50px;
-    margin-bottom: 50px;
-    
-    background-color: #000;
+    top: 7.5vh;
+
+    margin-bottom: 8vh;
+
+    width: 100%;
 }
 .general{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 4rem;
+
     width: 100%;
 }
 /* GENERAL */
-.info, .sinopsis, .reparto, .banda-sonora, .documentales, .criticas, .rank, .premios{
+.general section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: space-evenly;
+
     padding: 3%;
-    width: 90%;
-    margin: 2.5%;
+    width: 85%;
 
-    background-color: #fff;
+    background-color: var(--color-text);
 
-    border: 5px solid #aaa;
-    border-radius: 50px;
-    box-shadow: 1px 2px 20px 0 #bbb;
+    border: 5px solid var(--color-gold);
+    box-shadow: 1px 2px 20px 0 var(--color-gold);
+    border-radius: 50px;    
 }
 /* INFORMACION */
 .info__info{
@@ -981,8 +954,15 @@ hr {
     flex-direction: row;
 }
 .banda-sonora__info{
-    text-align: center;
     width: 50%;
+    height: 65vh;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    text-align: center;
 }
 .banda-sonora__info h2{
     font-size: 1.4rem;
@@ -994,9 +974,12 @@ hr {
     padding: 5%;
 }
 .banda-sonora__info iframe{
-    margin: 0;
-    width: 90%;    
+    width: 100%;
+    height: 100%;
+
+    padding: 3%;   
 }
+
 .banda-sonora__imagen{
     width: 50%;
     height: 100%;
@@ -1014,22 +997,16 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.documentales__documentales h3{
-    font-size: 1.6rem;
-    text-align: center;
-    margin: 2%;
+    gap: 1.5rem;
 }
 .documentales__principal{
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
+
+    gap: 1rem;
     
     width: 100%;
-    margin: 3% 0;
-}
-.documentales__principal iframe{
-    padding: 5%;
 }
 
 .documentales__secundario{
@@ -1038,140 +1015,216 @@ hr {
     align-items: center;
     flex-direction: column;
 
-    background-image: url(../images/Animacion_de_Arcane_optimized.webp);
+    background-image: url(../images/info/Animacion_de_Arcane_optimized.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: fill;
     background-position: center;
 
     width: 100%;
     height: 65vh;
 }
-.documentales__secundario h3{
-    display: inline-block;
-    background-color: #fff;
-    font-size: 2rem;
+.documentales__documentales h3{
+    background-color: var(--color-text);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0;
 }
+.documentales__secundario iframe{
+    width: 50%;
+    height: 65%;
+
+    padding: 3%;
+}
+
 /* CRITICAS, RANKING, PREMIOS */
+.criticas, .rank, .premios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.criticas div, .rank div, .premios div{
+    width: 85%;
+    text-align: center;
+}
+.criticas div ul, .rank div ul, .premios div ul{
+    padding: 0 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    text-align: center;
+}
+
 .criticas ul, .rank ul, .premios ul{
     list-style: none;
     text-align: start;
 }
-.criticas h2, .rank h2, .premios h2{
-    font-size: 2rem;
-}
 .criticas li, .rank li, .premios li{
     font-size: 1.15rem;
-    margin: .5%;
     width: 100%;
+}
+cite{
+    font-size: 1rem;
+}
+
+.general section h2{
+    font-size: 2rem;
 }
 
 /*CONTACTO------------------------------------------------------------*/
-.contact_form{
+.main-contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     position: relative;
-	width: 460px; 
-    height: auto;
-    margin: 80px auto;
-	border-radius: 10px;  
-	padding-top: 30px;
-	padding-bottom: 20px;  
-    background-color: #fbfbfb; 
-    padding-left: 30px; 
+    top: 7.5vh;
+    margin-bottom: 8vh;
+
+    color: var(--primary);
+    text-shadow: var(--color-bg) 5px 7px 15px;
+}
+.background-contact{
+    background-image: url(../images/info-media/Arcane_Official_Trailer_Textless.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-contact>*{
+    position: relative;
+    top: -7.5vh;
 }
 
-input{
-	background-color: #fbfbfb; 
-	width: 408px; 
-	height: 40px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #000; 
-	margin-top: 10px;  
-	padding-left: 10px;
-    margin-bottom: 20px; 
+.title-form{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: var(--primary);
+    font-size: 2.25rem;
+
 }
 
-textarea{
-    background-color: #fbfbfb; 
-	width: 405px; 
-	height: 150px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #000; 
-	margin-top: 10px;  
-	padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
+.contact-form {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1rem;
+
+    min-height: 65vh;
+    padding: 3rem 2rem;
+
+    border: solid var(--primary) 0.35rem;
+    border-radius: 50px;
+}
+.formulario{
+    background-color: var(--color-primaryT);
 }
 
-label{
-    display: block; 
-	float: center; 	
+.contact-form>* {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding: 0 2rem;
 }
 
-.button{
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-	text-transform: uppercase;
-	background-color: #000; 
-	border-color: #000; 
-	border-style: solid; 
-	border-radius: 10px;	
-	width: 420px;   
+.form-group {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    gap: 0.1rem;
+
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.name-fields {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    gap: 2rem;
+}
+
+.form-group>label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.15rem;
+}
+
+.name-fields>input[type="text"],
+.form-group>input[type="text"],
+.form-group>input[type="email"],
+.form-group>input[type="tel"],
+.form-group>textarea {
+    width: 100%;
+
+    border: solid var(--primary) 2px;
+    border-radius: 15px;
+    font-size: 1rem;
+
+    padding: 0.75rem;
+}
+
+.name-fields>input[type="text"]:focus,
+.form-group>input[type="text"]:focus,
+.form-group>input[type="email"]:focus,
+.form-group>input[type="tel"]:focus,
+.form-group>textarea:focus {
+    border-color: var(--boton-1);
+    outline: none;
+}
+
+.contact-form>.form-message {
+    height: calc((100% / 6) *2);
+}
+
+.form-message>.message {
+    min-height: 10rem;
+    resize: none;
+}
+
+button[type="submit"] {
+    width: 50%;
+    height: 4rem;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 50%;
+    top: 1rem;
+
+    transform: translateX(-50%);
+}
+
+.contact-form>button {
+    background-color: var(--primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding: 1rem;
+
     cursor: pointer;
 }
 
-button p{
-	color: #fff; 
-}
-
-span{
-	color: #000;
-}
-
-.aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
-}
-
-h1{
-	font-size: 39px;  
-	text-align: left; 
-	padding-bottom: 20px; 
-	color: #000;
-}
-
-h3{
-	font-size: 16px; 
-	padding-bottom: 30px;
-	color: #0e0e0e;   
-}
-
-p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-}
-
-::-webkit-input-placeholder {
-    color: #a8a8a8;
-}
-
-::-webkit-textarea-placeholder {
-    color: #a8a8a8;
-}
-
-.formulario input:focus{
-	outline:0;
-	border: 1px solid #97d848;
-}
-
-.formulario textarea:focus{
-	outline:0;
-	border: 1px solid #97d848;
+.contact-form>button:hover {
+    background-color: var(--boton-1);
 }
 
 

@@ -39,66 +39,65 @@
             </nav>
         </header>
 
-        <main class="main">        
-            <div class="contact_form">
-                <div class="formulario">			
-                    <h1>Formulario de contacto</h1>
-                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>        
-                    <form action="" method="post">
-                        <p>
-                            <label for="nombre" class="colocar_nombre">Nombre
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                        </p>                                    
-                        <p>
-                            <label for="email" class="colocar_email">Email
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>                                
-                        <p>
-                            <label for="telefone" class="colocar_telefono">Teléfono
-                            </label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                        </p>                                    
-                        <p>
-                            <label for="website" class="colocar_website">Sitio web
-                            </label>
-                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                        </p>                                    
-                        <p>
-                            <label for="asunto" class="colocar_asunto">Asunto
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                        </p>                                    
-                        <p>
-                            <label for="mensaje" class="colocar_mensaje">Mensaje
-                                <span class="obligatorio">*</span>
-                            </label>                     
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                        </p>	  								
-                    
-                        <button class="button" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        <main class="main main-contact background-contact">        
+            <section class="contact-container">
+                <h1 class="title-form">Contáctame!</h1>
+                <form class="contact-form formulario" action="https://formspree.io/f/xqakzavd" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <div class="name-fields">
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre/s">
+                            <input type="text" id="apellido" name="apellido" placeholder="Apellido/s">
+                        </div>
+                    </div>
 
-                        <p class="aviso">
-                            <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>                                
-                    </form>
-                </div>	
-            </div>        
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Número de contacto*</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número de contacto" required>
+                    </div>
+
+                    <div class="form-group form-message">
+                        <label for="notas">Notas, sugerencias o preguntas*</label>
+                        <textarea class="message" id="notas" name="notas" placeholder="Escriba su mensaje aquí..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>       
         </main>
     </div>
 
-    <footer>
-        <div>
-            <a href="#"><img src="../images/redes/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="../images/redes/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="../images/redes/twitter.svg" alt="Twitter"></a>
-            <a href="#"><img src="../images/redes/youtube.svg" alt="Youtube"></a>
-            <a href="#"><img src="../images/redes/spotify.svg" alt="Spotify"></a>
-        </div>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <section class="footer-general">
+                <a href="../index.html" class="link-logo logo-footer">
+                    <img src="./images/logo.png" alt="Portfolio Logo" class="logo footer-logo">
+                </a>
+                <ul class="footer-menu">
+                    <li class="footer-items"><a href="./index.html" class="footer-link">Inicio</a></li>
+                    <li class="footer-items"><a href="./capitulos.html" class="footer-link">Capítulos</a></li>
+                    <li class="footer-items"><a href="./segunda_temporada.html" class="footer-link">Temporada 2</a></li>
+                    <li class="footer-items"><a href="./info.html" class="footer-link">Más información</a></li>
+                    <li class="footer-items"><a href="./contacto.html" class="footer-link">Contacto</a></li>
+                </ul>
+                <div class="social-media-logos">
+                    <a href="https://www.linkedin.com/in/edamiantripodi/" target="_BLANK" class="social-media">
+                        <img src="./images/redes/linkedin.svg" alt="Linkedin" class="social-logo linkedin-logo">
+                    </a>
+                    <a href="https://github.com/xKensho47" target="_BLANK" class="social-media">
+                        <img src="./images/redes/github.svg" alt="GitHub" class="social-logo github-logo">
+                    </a>
+                </div>
+            </section>
+            <div class="arcane-copyright">
+                &copy; 2024 Arcane by E. Damián Tripodi~ | All Rights Reserved
+            </div>
+        </nav>
     </footer>
 
     <script src="../js/main.js"></script>
