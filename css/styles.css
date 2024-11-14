@@ -1484,6 +1484,18 @@ button[type="submit"] {
         grid-template-rows: repeat(auto-fill, 1fr);
         gap: 0;
     }
+    .galeria__imagenes-i div,
+    .galeria__imagenes-ii div,
+    .galeria__imagenes-iii div {
+        width: 100%;
+        height: 100%;
+    }
+    .galeria__imagenes-i div img,
+    .galeria__imagenes-ii div img,
+    .galeria__imagenes-iii div img{
+        width: 100%;
+        height: 100%;
+    }
 
     /* HISTORIA ----------------------------------------------------------------*/
     .history p {
