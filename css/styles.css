@@ -64,19 +64,6 @@ body::-webkit-scrollbar-thumb,
     overflow: hidden;
 }
 
-/* 
-.container::after{
-    content: "";
-    display: block;
-    height: 30vh;
-
-    border: solid red;
-}
-.container:has(:hover) .footer {
-    opacity: 1;
-} 
-*/
-
 /* HEADER */
 header {
     width: 100%;
@@ -276,6 +263,7 @@ main {
     right: 0;
     width: 100%;
 }
+
 .decoration img,
 .decoration-2 img {
     width: 100%;
@@ -412,22 +400,6 @@ h4 {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .trailers .contenedor {
-        width: 100%;
-    }
-
-    iframe {
-        width: 100%;
-        height: auto;
-    }
-
-    .boton, .boton-2 {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
-}
-
 /* CAPITULOS ----------------------------------------------------------*/
 .main-chapters {
     width: 100vw;
@@ -440,7 +412,8 @@ h4 {
     position: relative;
     top: 7.5vh;
 }
-.background-capitulos{
+
+.background-capitulos {
     width: 100vw;
     height: 100vh;
 
@@ -652,71 +625,34 @@ hr {
     color: var(--color-text);
 }
 
-/* Media query para reducir a 4 columnas */
-@media (max-width: 1200px) {
-
-    .galeria__imagenes-i,
-    .galeria__imagenes-ii,
-    .galeria__imagenes-iii {
-        grid-template-columns: repeat(4, 1fr);
-        /* 4 columnas cuando la ventana sea menor a 1200px */
-    }
-}
-
-/* Media query para reducir a 3 columnas */
-@media (max-width: 900px) {
-
-    .galeria__imagenes-i,
-    .galeria__imagenes-ii,
-    .galeria__imagenes-iii {
-        grid-template-columns: repeat(3, 1fr);
-        /* 3 columnas cuando la ventana sea menor a 900px */
-    }
-}
-
-/* Media query para reducir a 2 columnas */
-@media (max-width: 600px) {
-
-    .galeria__imagenes-i,
-    .galeria__imagenes-ii,
-    .galeria__imagenes-iii {
-        grid-template-columns: repeat(2, 1fr);
-        /* 2 columnas cuando la ventana sea menor a 600px */
-    }
-}
-
-/* Media query para una sola columna en pantallas pequeñas */
-@media (max-width: 400px) {
-
-    .galeria__imagenes-i,
-    .galeria__imagenes-ii,
-    .galeria__imagenes-iii {
-        grid-template-columns: 1fr;
-        /* 1 columna cuando la ventana sea menor a 400px */
-    }
-}
-
 /* HISTORIA ----------------------------------------------------------------*/
-.history *{
+.history * {
     color: var(--color-gold);
 }
-.history p{
+
+.history p {
     font-size: 1.6rem;
     line-height: 3rem;
 }
-.history1{
+
+.history1 {
     background-image: url(../images/history/00-background.jpg);
 }
-.history2{
+
+.history2 {
     background-image: url(../images/history/01-piltover.jpg);
 }
-.history3{
+
+.history3 {
     background-image: url(../images/history/02-zaun.jpg);
 }
-.history1, .history2, .history3{
+
+.history1,
+.history2,
+.history3 {
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
     display: flex;
     align-items: center;
@@ -729,7 +665,7 @@ hr {
     height: 100vh;
 }
 
-.history__container{
+.history__container {
     font-size: 24px;
     text-shadow: 2px 4px 15px rgb(93, 71, 40);
     text-align: center;
@@ -738,20 +674,11 @@ hr {
     -webkit-text-stroke: 2px var(--color-bg);
     width: 54%;
 }
-.history__container h3{
+
+.history__container h3 {
     margin: 7%;
     font-size: 50px;
 }
-
-@media screen and (max-width: 576px) {
-    .history__container{
-        width: 100%;
-        padding: 5%;
-        font-size: 1.2rem;
-        -webkit-text-stroke: 1.2px black;
-    }
-}
-
 
 /* SEGUNDA TEMPORADA -----------------------------------------------------------*/
 .season2-main {
@@ -761,14 +688,14 @@ hr {
 
 
 /* ESTILOS SEGUNDA TEMPORADA ---------------------------------------------------*/
-.season2-main{
+.season2-main {
     height: 200vh;
 }
 
 .season2-section {
     width: 100%;
     height: 100%;
-    
+
     position: relative;
     top: 7.5vh;
 
@@ -777,7 +704,8 @@ hr {
     justify-content: start;
     flex-direction: column;
 }
-.section2-container{
+
+.section2-container {
     color: var(--color-gold);
     text-align: center;
     font-size: 1.75rem;
@@ -804,14 +732,16 @@ hr {
     gap: 5rem;
 
     padding: 0 7.5%;
-    
+
     transition: opacity .5s ease-in-out;
 }
-.articulo__info h3{
+
+.articulo__info h3 {
     font-size: 2.5rem;
     font-weight: 700;
 }
-.articulo__info p{
+
+.articulo__info p {
     width: 75%;
     font-size: 1.5rem;
     text-wrap: balance;
@@ -834,21 +764,24 @@ hr {
     padding: 3%;
 }
 
-.section2-background, .section2-background2{
+.section2-background,
+.section2-background2 {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
-.section2-background{
+
+.section2-background {
     background-image: url(../images/history/01-piltover.jpg);
 }
-.section2-background2{
+
+.section2-background2 {
     background-image: url(../images/history/02-zaun.jpg);
 }
 
 /*INFORMACION--------------------------------------------------------*/
-.info-main{
+.info-main {
     display: inline-block;
     position: relative;
     top: 7.5vh;
@@ -857,7 +790,8 @@ hr {
 
     width: 100%;
 }
-.general{
+
+.general {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -866,8 +800,9 @@ hr {
 
     width: 100%;
 }
+
 /* GENERAL */
-.general section{
+.general section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -880,40 +815,48 @@ hr {
 
     border: 5px solid var(--color-gold);
     box-shadow: 1px 2px 20px 0 var(--color-gold);
-    border-radius: 50px;    
+    border-radius: 50px;
 }
+
 /* INFORMACION */
-.info__info{
+.info__info {
     padding: 3%;
     color: #000;
     width: 50%;
 }
-.info__title{
+
+.info__title {
     text-align: center;
     font-size: 2rem;
     margin: 2.5%;
 }
-.info__lista{
+
+.info__lista {
     line-height: 1.5rem;
     text-align: justify;
     list-style: none;
 }
-.info__imagen{
+
+.info__imagen {
     width: 50%;
 }
-.info__imagen img{
+
+.info__imagen img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
+
 /* SINOPSIS */
-.sinopsis div{
+.sinopsis div {
     text-align: center;
 }
-.sinopsis div h2{
+
+.sinopsis div h2 {
     font-size: 2rem;
     margin-bottom: 2%;
 }
-.sinopsis div p{
+
+.sinopsis div p {
     text-align: justify;
     font-size: 1.4rem;
     font-weight: .8rem;
@@ -922,38 +865,45 @@ hr {
 }
 
 /* REPARTO */
-.reparto{
+.reparto {
     flex-direction: row;
 }
-.reparto__reparto{
+
+.reparto__reparto {
     padding: 3%;
     color: #000;
     width: 50%;
 }
-.reparto h2{
+
+.reparto h2 {
     font-size: 2rem;
     margin: 2.5%;
 }
-.reparto__lista{
+
+.reparto__lista {
     line-height: 1.5rem;
     text-align: justify;
     list-style: none;
 }
-.reparto__imagen{
+
+.reparto__imagen {
     width: 50%;
 }
-.reparto__imagen img{
+
+.reparto__imagen img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
+
 /* BANDA SONORA */
-.banda-sonora{
+.banda-sonora {
     display: inline-flex;
     justify-self: center;
     align-self: center;
     flex-direction: row;
 }
-.banda-sonora__info{
+
+.banda-sonora__info {
     width: 50%;
     height: 65vh;
 
@@ -961,55 +911,60 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
     text-align: center;
 }
-.banda-sonora__info h2{
+
+.banda-sonora__info h2 {
     font-size: 1.4rem;
 }
-.banda-sonora__info p{
+
+.banda-sonora__info p {
     text-align: justify;
     font-size: 1.1rem;
     font-weight: .2rem;
     padding: 5%;
 }
-.banda-sonora__info iframe{
+
+.banda-sonora__info iframe {
     width: 100%;
     height: 100%;
 
-    padding: 3%;   
+    padding: 3%;
 }
 
-.banda-sonora__imagen{
+.banda-sonora__imagen {
     width: 50%;
     height: 100%;
     border-radius: 30px;
     overflow: hidden;
 }
-.banda-sonora__imagen img{
+
+.banda-sonora__imagen img {
     width: 100%;
     height: 100%;
 }
 
 /* DOCUMENTALES */
-.documentales__documentales{
+.documentales__documentales {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
 }
-.documentales__principal{
+
+.documentales__principal {
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
 
     gap: 1rem;
-    
+
     width: 100%;
 }
 
-.documentales__secundario{
+.documentales__secundario {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1023,13 +978,15 @@ hr {
     width: 100%;
     height: 65vh;
 }
-.documentales__documentales h3{
+
+.documentales__documentales h3 {
     background-color: var(--color-text);
     font-size: 1.8rem;
     text-align: center;
     padding: 0;
 }
-.documentales__secundario iframe{
+
+.documentales__secundario iframe {
     width: 50%;
     height: 65%;
 
@@ -1037,7 +994,9 @@ hr {
 }
 
 /* CRITICAS, RANKING, PREMIOS */
-.criticas, .rank, .premios{
+.criticas,
+.rank,
+.premios {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1045,11 +1004,16 @@ hr {
     gap: 1rem;
 }
 
-.criticas div, .rank div, .premios div{
+.criticas div,
+.rank div,
+.premios div {
     width: 85%;
     text-align: center;
 }
-.criticas div ul, .rank div ul, .premios div ul{
+
+.criticas div ul,
+.rank div ul,
+.premios div ul {
     padding: 0 3%;
     display: flex;
     align-items: center;
@@ -1060,19 +1024,25 @@ hr {
     text-align: center;
 }
 
-.criticas ul, .rank ul, .premios ul{
+.criticas ul,
+.rank ul,
+.premios ul {
     list-style: none;
     text-align: start;
 }
-.criticas li, .rank li, .premios li{
+
+.criticas li,
+.rank li,
+.premios li {
     font-size: 1.15rem;
     width: 100%;
 }
-cite{
+
+cite {
     font-size: 1rem;
 }
 
-.general section h2{
+.general section h2 {
     font-size: 2rem;
 }
 
@@ -1091,17 +1061,19 @@ cite{
     color: var(--primary);
     text-shadow: var(--color-bg) 5px 7px 15px;
 }
-.background-contact{
+
+.background-contact {
     background-image: url(../images/info-media/Arcane_Official_Trailer_Textless.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.main-contact>*{
+
+.main-contact>* {
     position: relative;
     top: -7.5vh;
 }
 
-.title-form{
+.title-form {
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
@@ -1123,7 +1095,8 @@ cite{
     border: solid var(--primary) 0.35rem;
     border-radius: 50px;
 }
-.formulario{
+
+.formulario {
     background-color: var(--color-primaryT);
 }
 
@@ -1226,10 +1199,6 @@ button[type="submit"] {
 .contact-form>button:hover {
     background-color: var(--boton-1);
 }
-
-
-
-
 
 /* FOOTER */
 .footer {
@@ -1341,4 +1310,503 @@ button[type="submit"] {
 
     color: var(--color-text);
     font-size: .75rem;
+}
+
+
+@media (max-width: 1200px) {
+
+    .galeria__imagenes-i,
+    .galeria__imagenes-ii,
+    .galeria__imagenes-iii {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+
+    /* HEADER */
+    .logo1 {
+        max-width: 7.5rem;
+    }
+
+    .menu {}
+
+    .menu__lista {}
+
+    .menu__item {}
+
+    .menu__item a {}
+
+    .menu__item a:hover {}
+
+    /* HOME PAGE*/
+    .logo {
+        width: 90vw;
+        gap: 2vh;
+    }
+
+    .logo img {
+        object-fit: none;
+        object-position: center;
+
+        transform: scale(.5);
+    }
+
+    /* SECUNDARIO */
+    .secundario .trailers {
+        width: 90%;
+    }
+
+    /* Trailers */
+    .trailers {
+        flex-direction: column;
+        position: relative;
+        /* top: 2rem; */
+    }
+
+    .trailers .contenedor {
+        width: 98%;
+    }
+
+    .trailers__iframe {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .trailers__iframe iframe {
+        width: 100%;
+        height: 100%;
+
+        padding: 3%;
+    }
+
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    /* Boton */
+    .boton,
+    .boton-2 {
+        position: relative;
+
+        transform: scale(.8);
+    }
+
+    .boton {
+        top: -3rem;
+    }
+
+    .boton-2 {
+        top: 3rem;
+    }
+
+    /* CAPITULOS ----------------------------------------------------------*/
+    .title-h1 {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-acto {
+        gap: .5rem;
+
+        padding: .5rem;
+    }
+
+    .section-principal {
+        height: auto;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .capitulo {
+        flex-direction: column;
+        left: 0;
+        gap: .5rem;
+
+        padding: 0;
+    }
+
+    .capitulo__img {
+        width: 100%;
+    }
+
+    .capitulo__img img {
+        width: 100%;
+    }
+
+    .capitulo__netflix {
+        gap: .5rem;
+        padding: 0;
+    }
+
+    .capitulo__netflix a {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .capitulo__descripcion {
+        display: none;
+        font-size: .75rem;
+        line-height: normal;
+    }
+
+    .capitulo:hover {
+        border: 5px solid var(--color-text);
+        border-radius: 30px;
+        box-shadow: 1px 3px 15px 0 var(--color-text);
+    }
+
+    /* Galería */
+    .galeria {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .75rem;
+
+        padding: 1rem 2rem;
+    }
+
+    .galeria h2 {
+        font-size: 1.25rem;
+    }
+
+    /* Galería: Acto I */
+    .galeria__imagenes-i,
+    .galeria__imagenes-ii,
+    .galeria__imagenes-iii {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        gap: 0;
+    }
+
+    /* HISTORIA ----------------------------------------------------------------*/
+    .history p {
+        position: relative;
+        left: -45%;
+
+        width: 90vw;
+        padding: 0% 5%;
+
+        font-size: 1.1rem;
+        line-height: normal;
+
+        text-align: center;
+    }
+
+    .history__container h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /* SEGUNDA TEMPORADA -----------------------------------------------------------*/
+    .section2-container {
+        font-size: .7rem;
+        font-weight: 600;
+
+        -webkit-text-stroke: 1.25px black;
+    }
+
+    .articulo__info {
+        gap: .5rem;
+        padding: 0 5%;
+    }
+
+    .articulo__info h3 {
+        position: relative;
+        top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .articulo__info p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .season2-section .articulo__video {
+        gap: 2rem;
+    }
+
+    .articulo__video h3 {
+        font-size: 1.5rem;
+    }
+
+    .articulo__video iframe {
+        width: 98%;
+        height: 30vh;
+
+        padding: 1%;
+    }
+
+    /*INFORMACION--------------------------------------------------------*/
+    .general {
+        gap: 1rem;
+    }
+
+    /* GENERAL */
+    .general section {
+        flex-direction: column;
+        padding: 3% 0;
+        width: 98%;
+
+        background-color: var(--color-text);
+
+        overflow: hidden;
+    }
+
+    /* INFORMACION */
+    .info__info {
+        width: 100%;
+    }
+
+    .info__info li {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .info__title {
+        font-size: 1rem;
+        margin: 1.5%;
+    }
+
+    .info__lista {
+        line-height: normal;
+    }
+
+    .info__imagen {
+        width: 100%;
+    }
+
+    /* SINOPSIS */
+    .sinopsis div h2 {
+        font-size: 1rem;
+        margin-bottom: 2%;
+    }
+
+    .sinopsis div p {
+        font-size: .75rem;
+        font-weight: 500;
+    }
+
+    /* REPARTO */
+    .reparto {
+        flex-direction: column;
+    }
+
+    .reparto__reparto {
+        width: 100%;
+    }
+
+    .reparto h2 {
+        margin: 1.5%;
+    }
+
+    .reparto__lista {
+        text-align: start;
+        font-size: .9rem;
+        line-height: normal;
+        font-weight: 500;
+
+        padding: 0 5%;
+    }
+
+    /* BANDA SONORA */
+    .banda-sonora {
+        flex-direction: column;
+    }
+
+    .banda-sonora__info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banda-sonora__info p {
+        text-align: justify;
+        font-size: .9rem;
+        font-weight: 500;
+        padding: 3%;
+    }
+
+    .banda-sonora__info iframe {
+        width: 100%;
+        height: 100%;
+
+        padding: 3%;
+    }
+
+    .banda-sonora__imagen {
+        width: 100%;
+    }
+
+    /* DOCUMENTALES */
+    .documentales__documentales {
+        gap: 1rem;
+    }
+
+    .documentales__principal {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .documentales__principal h3 {
+        font-size: 1rem;
+    }
+
+    .documentales__principal div {
+        width: 60%;
+    }
+
+    .documentales__documentales h3 {
+        font-size: 1.1rem;
+    }
+
+    .documentales__secundario iframe {
+        width: 65%;
+        padding: 3%;
+    }
+
+    /* CRITICAS, RANKING, PREMIOS */
+    .criticas,
+    .rank,
+    .premios {
+        gap: .5rem;
+    }
+
+    .criticas div,
+    .rank div,
+    .premios div {
+        width: 100%;
+    }
+
+    .criticas div ul,
+    .rank div ul,
+    .premios div ul {
+        gap: .5rem;
+    }
+
+    .criticas li,
+    .rank li,
+    .premios li {
+        font-size: .75rem;
+        text-align: start;
+    }
+
+    cite {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .general section h2 {
+        font-size: 1.5rem;
+    }
+
+    /*CONTACTO------------------------------------------------------------*/
+    .main-contact {
+        margin-bottom: 8vh;
+    }
+
+    .background-contact {
+        background-position-x: 55%;
+    }
+
+    .main-contact>* {
+        position: relative;
+        top: -7.5vh;
+    }
+
+    .title-form {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: var(--primary);
+        font-size: 1.5rem;
+
+    }
+
+    .contact-form {
+        height: auto;
+        min-height: auto;
+        padding: 1.5rem;
+        gap: .5rem;
+    }
+
+    .form-group {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .name-fields {
+        flex-direction: column;
+
+        gap: .75rem;
+    }
+
+    .form-group>label {
+        font-size: 1.2rem;
+    }
+
+    .name-fields>input[type="text"],
+    .form-group>input[type="text"],
+    .form-group>input[type="email"],
+    .form-group>input[type="tel"],
+    .form-group>textarea {
+        font-size: .75rem;
+    }
+
+    .form-message>.message {
+        min-height: 7.5rem;
+    }
+
+    button[type="submit"] {
+        width: 50%;
+        height: 3rem;
+        top: .5rem;
+    }
+
+    .contact-form>button {
+        font-size: .9rem;
+    }
+
+    /* FOOTER */
+    .footer-nav {
+        width: 100%;
+        gap: .5rem;
+    }
+
+    .footer a {
+        font-size: .9rem;
+    }
+
+    .footer-general {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .footer .logo {
+        width: 80%;
+    }
+
+    .footer-menu {
+        padding-left: 0;
+        gap: .3rem;
+    }
+
+    .footer-items {
+        text-align: center;
+    }
+
+    .social-media {
+        min-width: 4vh;
+        min-height: 4vh;
+    }
+
+    .arcane-copyright {
+        font-size: .5rem;
+    }
 }
