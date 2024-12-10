@@ -450,7 +450,9 @@ h4 {
     padding: 1rem;
 }
 
-.section-principal {
+.section-principal-1,
+.section-principal-2,
+.section-principal-3 {
     width: 100%;
     height: 82.5vh;
 
@@ -512,6 +514,11 @@ h4 {
     /* text-decoration: none; */
     font-size: 1.5rem;
     font-weight: 600;
+}
+.capitulo__netflix a i {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-left: .5rem;
 }
 
 .capitulo__netflix a:hover {
@@ -1412,7 +1419,9 @@ button[type="submit"] {
         padding: .5rem;
     }
 
-    .section-principal {
+    .section-principal-1,
+    .section-principal-2,
+    .section-principal-3 {
         height: auto;
         padding: 0;
         gap: 1rem;
@@ -1484,15 +1493,17 @@ button[type="submit"] {
         grid-template-rows: repeat(auto-fill, 1fr);
         gap: 0;
     }
+
     .galeria__imagenes-i div,
     .galeria__imagenes-ii div,
     .galeria__imagenes-iii div {
         width: 100%;
         height: 100%;
     }
+
     .galeria__imagenes-i div img,
     .galeria__imagenes-ii div img,
-    .galeria__imagenes-iii div img{
+    .galeria__imagenes-iii div img {
         width: 100%;
         height: 100%;
     }

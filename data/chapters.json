@@ -1,0 +1,74 @@
+{
+    "serie": "Arcane",
+    "acts": [
+        {
+            "name": "Acto 1",
+            "chapters": [
+                {
+                    "title": "Capítulo 1: ¡Bienvenidos!",
+                    "description": "Las hermanas huérfanas Vi y Powder causan problemas en las calles clandestinas de Zaun tras un robo en la lujosa ciudad de Piltóver.",
+                    "link": "https://www.netflix.com/watch/81446667",
+                    "image": "../images/chapters/capitulo-1.jpg"
+                },
+                {
+                    "title": "Capítulo 2: Algunos misterios están mejor sin resolver",
+                    "description": "El idealista inventor Jayce intenta dominar la magia con la ciencia, a pesar de los consejos de su mentor. El líder criminal Silco experimenta con una poderosa sustancia.",
+                    "link": "https://www.netflix.com/watch/81446668",
+                    "image": "../images/chapters/capitulo-2.jpg"
+                },
+                {
+                    "title": "Capítulo 3: La violencia bruta es necesaria para el cambio",
+                    "description": "Un enfrentamiento épico entre viejos rivales trae graves consecuencias para la localidad de Zaun. Jayce y Viktor lo arriesgan todo por su investigación.",
+                    "link": "https://www.netflix.com/watch/81446669",
+                    "image": "../images/chapters/capitulo-3.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Acto 2",
+            "chapters": [
+                {
+                    "title": "Capítulo 4: ¡Feliz Día del Progreso!",
+                    "description": "Ya que Piltóver se está beneficiando de su tecnología, Jayce y Viktor piensan en el siguiente paso. Una cara familiar de Zaun reaparece y provoca un caos.",
+                    "link": "https://www.netflix.com/watch/81446670",
+                    "image": "../images/chapters/capitulo-4.jpg"
+                },
+                {
+                    "title": "Capítulo 5: Todo el mundo quiere ser mi enemigo",
+                    "description": "La rebelde vigilante Caitlyn recorre el distrito suburbano para localizar a Silco. Jayce se convierte en un blanco al intentar erradicar la corrupción en Piltóver.",
+                    "link": "https://www.netflix.com/watch/81446671",
+                    "image": "../images/chapters/capitulo-5.jpg"
+                },
+                {
+                    "title": "Capítulo 6: Cuando caigan estos muros",
+                    "description": "Un protegido menoscaba a su tutor en el Consejo, mientras una tecnología mágica evoluciona rápidamente. Con las autoridades detrás de ella, Jinx debe afrontar su pasado.",
+                    "link": "https://www.netflix.com/watch/81446672",
+                    "image": "../images/chapters/capitulo-6.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Acto 3",
+            "chapters": [
+                {
+                    "title": "Capítulo 7: El salvador",
+                    "description": "Caitlyn y Vi se reúnen en un callejón de Zaun y se dirigen hacia una frenética pelea con una enemiga en común. Viktor toma una complicada decisión.",
+                    "link": "https://www.netflix.com/watch/81446673",
+                    "image": "../images/chapters/capitulo-7.jpg"
+                },
+                {
+                    "title": "Capítulo 8: Agua y aceite",
+                    "description": "La desterrada heredera Mel y su madre, que está de visita, intercambian tácticas de combate. Caitlyn y Vi forman una inesperada alianza. Jinx tiene un cambio impactante.",
+                    "link": "https://www.netflix.com/watch/81446674",
+                    "image": "../images/chapters/capitulo-8.jpg"
+                },
+                {
+                    "title": "Capítulo 9: El monstruo que creaste",
+                    "description": "Cuando la guerra acecha peligrosamente, los líderes de Piltóver y Zaun reciben un ultimátum. Pero un enfrentamiento fatídico cambia ambas ciudades para siempre.",
+                    "link": "https://www.netflix.com/watch/81446675",
+                    "image": "../images/chapters/capitulo-9.jpg"
+                }
+            ]
+        }
+    ]
+}
