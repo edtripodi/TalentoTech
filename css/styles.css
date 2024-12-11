@@ -423,6 +423,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: fill;
     background-attachment: fixed;
+    background-position-x: center;
 
     z-index: -1;
 }
@@ -1078,6 +1079,7 @@ cite {
     background-image: url(../images/info-media/Arcane_Official_Trailer_Textless.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .main-contact>* {
