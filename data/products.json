@@ -1,0 +1,100 @@
+{
+    "productos": [
+        {
+            "id": "0001",
+            "nombre": "League Of Legends - Logo Xmas Knit - Jersey de punto",
+            "precio": "$66.99",
+            "descripcion": "Jersey de punto con diseño de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_logoxmasknit_tops_sweater_kw602761lol_art22-004948_8718526387728_527733-281.jpg?v=1732033793&width=2808",
+            "tipo": "Jersey de punto"
+        },
+        {
+            "id": "0002",
+            "nombre": "League Of Legends - Logo - Sudadera",
+            "precio": "$43.99",
+            "descripcion": "Sudadera con logo de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends3.jpg?v=1719835330&width=2808",
+            "tipo": "Sudadera"
+        },
+        {
+            "id": "0003",
+            "nombre": "League Of Legends - Logo - Gorra",
+            "precio": "$21.99",
+            "descripcion": "Gorra con logo de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_logo_headwear_snapback_sb104686lol_art21-002125_8718526126075_462744-291_4060d3e0-95d8-4149-8834-6606afac22c7.jpg?v=1730899491&width=2768",
+            "tipo": "Gorra"
+        },
+        {
+            "id": "0004",
+            "nombre": "League Of Legends - League Of Legends - Camiseta",
+            "precio": "$21.99",
+            "descripcion": "Camiseta de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_leagueoflegends_tops_tshirt_ts032013lol_art21-002047_8718526347036_462514-81.jpg?v=1725048613&width=2808",
+            "tipo": "Camiseta"
+        },
+        {
+            "id": "0005",
+            "nombre": "League Of Legends - Anima Squad Miss Fortune - Youtooz",
+            "precio": "$45.99",
+            "descripcion": "Figura coleccionable de Miss Fortune de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/x_yoto78465_d.jpg?v=1728899099&width=2808",
+            "tipo": "Youtooz"
+        },
+        {
+            "id": "0006",
+            "nombre": "League Of Legends - Anima Squad Miss Riven - Youtooz",
+            "precio": "$45.99",
+            "descripcion": "Figura coleccionable de Miss Riven de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/x_yoto78464_d_31415d08-fb32-4518-bd5c-0bf384611593.jpg?v=1728899198&width=2808",
+            "tipo": "Youtooz"
+        },
+        {
+            "id": "0007",
+            "nombre": "League Of Legends - Gold Logo White - Camiseta",
+            "precio": "$17.99",
+            "descripcion": "Camiseta con logo dorado de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_goldlogowhite_tops_tshirt_ts614473lol_art21-002051_8718526347135_462524-64_0b85f286-1dfa-4cec-9ec2-e85d3b8364a3.jpg?v=1721136548&width=2808",
+            "tipo": "Camiseta"
+        },
+        {
+            "id": "0008",
+            "nombre": "League Of Legends - Cut & Sew - Camiseta",
+            "precio": "$21.99",
+            "descripcion": "Camiseta de corte y costura de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_cut_sew_tops_tshirt_ts784036lol_art21-002057_8718526347197_462519-149_716dd18f-86c1-4099-8e96-4ad6a7772822.jpg?v=1721136491&width=2808",
+            "tipo": "Camiseta"
+        },
+        {
+            "id": "0009",
+            "nombre": "League Of Legends - Logo - Set de regalo",
+            "precio": "$33.99",
+            "descripcion": "Set de regalo con logo de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_logo_accessorie_scarf_gs456708lol_art21-009459_8718526128864_493664-12.jpg?v=1731435331&width=2808",
+            "tipo": "Set de regalo"
+        },
+        {
+            "id": "0010",
+            "nombre": "League Of Legends - Freljord Maxi - Póster",
+            "precio": "$6.99",
+            "descripcion": "Póster de Freljord de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/abydco693.jpg?v=1718923270&width=2808",
+            "tipo": "Póster"
+        },
+        {
+            "id": "0011",
+            "nombre": "League Of Legends - Champions Maxi - Póster",
+            "precio": "$7.99",
+            "descripcion": "Póster de campeones de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/abydco697_04c73e68-ad14-43a6-8b15-d79f82fc4e5e.jpg?v=1731435214&width=2808",
+            "tipo": "Póster"
+        },
+        {
+            "id": "0012",
+            "nombre": "League Of Legends - Logo - Beanie",
+            "precio": "$16.99",
+            "descripcion": "Beanie con logo de League Of Legends.",
+            "imagen": "https://www.impericon.com/cdn/shop/files/leagueoflegends_logo_headwear_longbeanie_kc473676lol_art22-006069_8718526154146_532256-18_afa3cfe7-9d25-4ad9-a78a-4e7ed8c88329.jpg?v=1725048358&width=2808",
+            "tipo": "Beanie"
+        }
+    ]
+}
