@@ -515,6 +515,7 @@ h4 {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 .capitulo__netflix a i {
     font-size: 1.5rem;
     color: var(--color-text);
@@ -548,7 +549,9 @@ h4 {
 }
 
 /* Galería */
-.galeria {
+.galeria-1,
+.galeria-2,
+.galeria-3 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -559,7 +562,9 @@ h4 {
     padding: 1rem 2rem;
 }
 
-.galeria h2 {
+.galeria-1 h2,
+.galeria-2 h2,
+.galeria-3 h2 {
     display: block;
     text-transform: uppercase;
     text-align: center;
@@ -1470,7 +1475,9 @@ button[type="submit"] {
     }
 
     /* Galería */
-    .galeria {
+    .galeria-1,
+    .galeria-2,
+    .galeria-3 {
         width: 100%;
         display: flex;
         align-items: center;
@@ -1481,7 +1488,9 @@ button[type="submit"] {
         padding: 1rem 2rem;
     }
 
-    .galeria h2 {
+    .galeria-1 h2,
+    .galeria-2 h2,
+    .galeria-3 h2 {
         font-size: 1.25rem;
     }
 

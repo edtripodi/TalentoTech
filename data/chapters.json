@@ -2,7 +2,8 @@
     "serie": "Arcane",
     "acts": [
         {
-            "name": "Acto 1",
+            "id": "i",
+            "name": "Acto I",
             "chapters": [
                 {
                     "title": "Capítulo 1: ¡Bienvenidos!",
@@ -22,10 +23,103 @@
                     "link": "https://www.netflix.com/watch/81446669",
                     "image": "../images/chapters/capitulo-3.jpg"
                 }
+            ],
+            "images": [
+                {
+                    "image": "../images/chapters/gallery-1/image001.jpg",
+                    "img_title": "Vander acogiendo a Powder y Violet en medio de la guerra entre Zaun y Piltóver.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image001.jpg",
+                    "alt": "Vander acogiendo a Powder y Violet en medio de la guerra entre Zaun y Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image002.jpg",
+                    "img_title": "Violet y Powder, junto con sus amigos, sobre los techos de la ciudad de Piltóver.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image002.jpg",
+                    "alt": "Violet y Powder, junto con sus amigos, sobre los techos de la ciudad de Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image003.jpg",
+                    "img_title": "Powder, Vi y sus amigos, siendo atacados por una pandilla luego de cometer un robo.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image003.jpg",
+                    "alt": "Powder, Vi y sus amigos, siendo atacados por una pandilla luego de cometer un robo."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image004.jpg",
+                    "img_title": "Vander siendo interrogado y amenazado por las autoridades de Piltóver.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image004.jpg",
+                    "alt": "Vander siendo interrogado y amenazado por las autoridades de Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image005.jpg",
+                    "img_title": "Powder mostrándole a Violet lo que pudo rescatar del robo frustrado.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image005.jpg",
+                    "alt": "Powder mostrándole a Violet lo que pudo rescatar del robo frustrado."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image006.jpg",
+                    "img_title": "Explosión que ocurre en el laboratorio de Jayce durante el robo de Violet y su pandilla.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image006.jpg",
+                    "alt": "Explosión que ocurre en el laboratorio de Jayce durante el robo de Violet y su pandilla."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image007.jpg",
+                    "img_title": "Sentencia de Jayce.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image007.jpg",
+                    "alt": "Sentencia de Jayce."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image008.jpg",
+                    "img_title": "Silco hablando del “Shimmer”.",                            
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image008.jpg",
+                    "alt": "Silco hablando del “Shimmer”."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image009.jpg",
+                    "img_title": "Viktor convenciendo a Jayce de seguir con sus investigaciones sobre la magia junto a él.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image009.jpg",
+                    "alt": "Viktor convenciendo a Jayce de seguir con sus investigaciones sobre la magia junto a él."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image010.jpg",
+                    "img_title": "Vander entregándose a las autoridades de Piltóver.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image010.jpg",
+                    "alt": "Vander entregándose a las autoridades de Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image011.jpg",
+                    "img_title": "Silco y un secuaz dopado con Shimmer.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image011.jpg",
+                    "alt": "Silco y un secuaz dopado con Shimmer."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image012.jpg",
+                    "img_title": "Viktor y Jayce intentando estabilizar la magia Hextech.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image012.jpg",
+                    "alt": "Viktor y Jayce intentando estabilizar la magia Hextech."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image013.jpg",
+                    "img_title": "Powder saliendo volando por la ventana después de ocasionar una explosión con una bomba casera.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image013.jpg",
+                    "alt": "Powder saliendo volando por la ventana después de ocasionar una explosión con una bomba casera."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image014.jpg",
+                    "img_title": "Violet golpeando y tratando de “jinx” (“gafe” en inglés) a Powder.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image014.jpg",
+                    "alt": "Violet golpeando y tratando de “jinx” (“gafe” en inglés) a Powder."
+                },
+                {
+                    "image": "../images/chapters/gallery-1/image015.jpg",
+                    "img_title": "Silco acogiendo a “Jinx” (Powder) luego de que fuera abandonada por su hermana Violet.",
+                    "miniature": "../images/chapters/gallery-1/miniaturas/image015.jpg",
+                    "alt": "Silco acogiendo a “Jinx” (Powder) luego de que fuera abandonada por su hermana Violet."
+                }
             ]
         },
         {
-            "name": "Acto 2",
+            "id": "ii",
+            "name": "Acto II",
             "chapters": [
                 {
                     "title": "Capítulo 4: ¡Feliz Día del Progreso!",
@@ -45,10 +139,145 @@
                     "link": "https://www.netflix.com/watch/81446672",
                     "image": "../images/chapters/capitulo-6.jpg"
                 }
+            ],
+            "images": [
+                {
+                    "image": "../images/chapters/gallery-2/image001.jpg",
+                    "img_title": "El grupo Firelights irrumpiendo el robo, a una de las naves piltovianas, de los secuaces de Silco.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image001.jpg",
+                    "alt": "El grupo Firelights irrumpiendo el robo, a una de las naves piltovianas, de los secuaces de Silco."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image002.jpg",
+                    "img_title": "Jinx apareciendo en la escena para detener a los Firelights.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image002.jpg",
+                    "alt": "Jinx apareciendo en la escena para detener a los Firelights."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image003.jpg",
+                    "img_title": "Jayce y Viktor mostrándole sus progresos en la investigación de la magia a Heimerdinger.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image003.jpg",
+                    "alt": "Jayce y Viktor mostrándole sus progresos en la investigación de la magia a Heimerdinger."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image004.jpg",
+                    "img_title": "Jayce dando el discurso del Día del Progreso.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image004.jpg",
+                    "alt": "Jayce dando el discurso del Día del Progreso."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image005.jpg",
+                    "img_title": "Caitlyn entre llamas, luego de una explosión que irrumpe el lugar en donde Jayce y Viktor guardan el núcleo Hextech.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image005.jpg",
+                    "alt": "Caitlyn entre llamas, luego de una explosión que irrumpe el lugar en donde Jayce y Viktor guardan el núcleo Hextech."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image006.jpg",
+                    "img_title": "Núcleo Hextech en manos de Silco, gracias a Jinx.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image006.jpg",
+                    "alt": "Núcleo Hextech en manos de Silco, gracias a Jinx."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image007.jpg",
+                    "img_title": "Caitlyn Kiramann, negocia la liberación de Vi a cambio de información sobre Silco.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image007.jpg",
+                    "alt": "Caitlyn Kiramann, negocia la liberación de Vi a cambio de información sobre Silco."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image008.jpg",
+                    "img_title": "Silco hablando con el guardia Marcus.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image008.jpg",
+                    "alt": "Silco hablando con el guardia Marcus."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image009.jpg",
+                    "img_title": "Jayce en presencia de Viktor, presionando a Marcus para que avance la investigación del robo del Núcleo Hextech.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image009.jpg",
+                    "alt": "Jayce en presencia de Viktor, presionando a Marcus para que avance la investigación del robo del Núcleo Hextech."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image010.jpg",
+                    "img_title": "Jinx investigando cómo sacarle provecho al Núcleo Hextech.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image010.jpg",
+                    "alt": "Jinx investigando cómo sacarle provecho al Núcleo Hextech."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image011.jpg",
+                    "img_title": "Jayce y Mel Medarda demuestran su amor acostándose, mientras Viktor tiene un avance importante en la investigación.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image011.jpg",
+                    "alt": "Jayce y Mel Medarda demuestran su amor acostándose, mientras Viktor tiene un avance importante en la investigación."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image012.jpg",
+                    "img_title": "Vi irrumpiendo en el lugar en el que se encuentra Sevika para obtener información sobre el paradero de su hermana Jinx.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image012.jpg",
+                    "alt": "Vi irrumpiendo en el lugar en el que se encuentra Sevika para obtener información sobre el paradero de su hermana Jinx."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image013.jpg",
+                    "img_title": "Jinx logra estabilizar el Núcleo Hextech en su laboratorio.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image013.jpg",
+                    "alt": "Jinx logra estabilizar el Núcleo Hextech en su laboratorio."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image014.jpg",
+                    "img_title": "Recuerdo del pasado de Viktor.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image014.jpg",
+                    "alt": "Recuerdo del pasado de Viktor."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image015.jpg",
+                    "img_title": "Jinx captura e interroga a Sevika.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image015.jpg",
+                    "alt": "Jinx captura e interroga a Sevika."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image016.jpg",
+                    "img_title": "Silco irrumpe en la habitación de la hija de Marcus.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image016.jpg",
+                    "alt": "Silco irrumpe en la habitación de la hija de Marcus."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image017.jpg",
+                    "img_title": "Viktor le muestra sus avances a Jayce. La tecnología Hextech crea vida a partir de la materia.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image017.jpg",
+                    "alt": "Viktor le muestra sus avances a Jayce. La tecnología Hextech crea vida a partir de la materia."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image018.jpg",
+                    "img_title": "Caitlyn pidiendo ayuda en los suburbios de Zaun a un zaunita adicto al shimmer.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image018.jpg",
+                    "alt": "Caitlyn pidiendo ayuda en los suburbios de Zaun a un zaunita adicto al shimmer."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image019.jpg",
+                    "img_title": "Jayce logra obtener los planos de la tecnología de Silco.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image019.jpg",
+                    "alt": "Jayce logra obtener los planos de la tecnología de Silco."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image020.jpg",
+                    "img_title": "Caitlyn se enfrenta a Sevika.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image020.jpg",
+                    "alt": "Caitlyn se enfrenta a Sevika."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image021.jpg",
+                    "img_title": "Jayce y Mel Medarda recuperando el núcleo Hextech.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image021.jpg",
+                    "alt": "Jayce y Mel Medarda recuperando el núcleo Hextech."
+                },
+                {
+                    "image": "../images/chapters/gallery-2/image022.jpg",
+                    "img_title": "Vi y Jinx confrontándose en la fábrica de su padre.",
+                    "miniature": "../images/chapters/gallery-2/miniaturas/image022.jpg",
+                    "alt": "Vi y Jinx confrontándose en la fábrica de su padre."
+                }
             ]
         },
         {
-            "name": "Acto 3",
+            "id": "iii",
+            "name": "Acto III",
             "chapters": [
                 {
                     "title": "Capítulo 7: El salvador",
@@ -67,6 +296,152 @@
                     "description": "Cuando la guerra acecha peligrosamente, los líderes de Piltóver y Zaun reciben un ultimátum. Pero un enfrentamiento fatídico cambia ambas ciudades para siempre.",
                     "link": "https://www.netflix.com/watch/81446675",
                     "image": "../images/chapters/capitulo-9.jpg"
+                }
+            ],
+            "images": [
+                {
+                    "image": "../images/chapters/gallery-3/image001.jpg",
+                    "img_title": "Vi es capturada por Ekko, líder de los Firelights.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image001.jpg",
+                    "alt": "Vi es capturada por Ekko, líder de los Firelights."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image002.jpg",
+                    "img_title": "Viktor, desesperado por sanarse, acude a Singed por una muestra de shimmer.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image002.jpg",
+                    "alt": "Viktor, desesperado por sanarse, acude a Singed por una muestra de shimmer."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image003.jpg",
+                    "img_title": "Ekko y Vi recordando el pasado en la guarida de los Firelights.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image003.jpg",
+                    "alt": "Ekko y Vi recordando el pasado en la guarida de los Firelights."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image004.jpg",
+                    "img_title": "Jinx paranoica e inestable luego de encontrarse con Vi.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image004.jpg",
+                    "alt": "Jinx paranoica e inestable luego de encontrarse con Vi."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image006.jpg",
+                    "img_title": "Ekko se enfrenta a Jinx.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image006.jpg",
+                    "alt": "Ekko se enfrenta a Jinx."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image007.jpg",
+                    "img_title": "Silco rescata a Jinx moribunda.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image007.jpg",
+                    "alt": "Silco rescata a Jinx moribunda."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image008.jpg",
+                    "img_title": "Silco acude a Singed para salvar a Jinx.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image008.jpg",
+                    "alt": "Silco acude a Singed para salvar a Jinx."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image009.jpg",
+                    "img_title": "Ambessa Medarda, madre de Mel, le hace una visita desde Noxus.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image009.jpg",
+                    "alt": "Ambessa Medarda, madre de Mel, le hace una visita desde Noxus."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image010.jpg",
+                    "img_title": "Heimerdinger se encuentra a Ekko en Zaun.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image010.jpg",
+                    "alt": "Heimerdinger se encuentra a Ekko en Zaun."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image011.jpg",
+                    "img_title": "Ambessa persuadiendo a Jayce.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image011.jpg",
+                    "alt": "Ambessa persuadiendo a Jayce."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image012.jpg",
+                    "img_title": "Los altos cargos y autoridades de Piltóver, junto con Caitlyn y Vi, son convocados a una reunión urgente.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image012.jpg",
+                    "alt": "Los altos cargos y autoridades de Piltóver, junto con Caitlyn y Vi, son convocados a una reunión urgente."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image013.jpg",
+                    "img_title": "El artefacto Hextech fusionándose con Viktor luego de que éste se inyectara shimmer mientras su alumna intenta ayudarlo al verlo sufrir.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image013.jpg",
+                    "alt": "El artefacto Hextech fusionándose con Viktor luego de que éste se inyectara shimmer mientras su alumna intenta ayudarlo al verlo sufrir."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image014.jpg",
+                    "img_title": "Vi y Jayce en la forja de la familia Talis.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image014.jpg",
+                    "alt": "Vi y Jayce en la forja de la familia Talis."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image015.jpg",
+                    "img_title": "El nuevo Núcleo Hextech creado por Viktor.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image015.jpg",
+                    "alt": "El nuevo Núcleo Hextech creado por Viktor."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image016.jpg",
+                    "img_title": "Ambessa le cuenta la verdad a Mel de porqué está en Piltóver.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image016.jpg",
+                    "alt": "Ambessa le cuenta la verdad a Mel de porqué está en Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image017.jpg",
+                    "img_title": "Silco y Jayce negociando la paz de Piltóver y la independencia de Zaun.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image017.jpg",
+                    "alt": "Silco y Jayce negociando la paz de Piltóver y la independencia de Zaun."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image018.jpg",
+                    "img_title": "Heimerdinger junto a Ekko en la guarida de los Firelights.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image018.jpg",
+                    "alt": "Heimerdinger junto a Ekko en la guarida de los Firelights."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image019.jpg",
+                    "img_title": "Vi se enfrenta a Sevika.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image019.jpg",
+                    "alt": "Vi se enfrenta a Sevika."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image020.jpg",
+                    "img_title": "Caitlyn y Jayce asistiendo a la reunión de altos cargos de Piltóver.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image020.jpg",
+                    "alt": "Caitlyn y Jayce asistiendo a la reunión de altos cargos de Piltóver."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image021.jpg",
+                    "img_title": "Ekko tratando de entender qué le sucedió a Jinx.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image021.jpg",
+                    "alt": "Ekko tratando de entender qué le sucedió a Jinx."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image022.jpg",
+                    "img_title": "Silco se enfrenta a Jayce.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image022.jpg",
+                    "alt": "Silco se enfrenta a Jayce."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image023.jpg",
+                    "img_title": "Jinx luchando contra sus propios demonios.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image023.jpg",
+                    "alt": "Jinx luchando contra sus propios demonios."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image024.jpg",
+                    "img_title": "Vi y Ekko en la batalla final.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image024.jpg",
+                    "alt": "Vi y Ekko en la batalla final."
+                },
+                {
+                    "image": "../images/chapters/gallery-3/image025.jpg",
+                    "img_title": "Jinx enfrentándose a su destino.",
+                    "miniature": "../images/chapters/gallery-3/miniaturas/image025.jpg",
+                    "alt": "Jinx enfrentándose a su destino."
                 }
             ]
         }

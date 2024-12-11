@@ -1,11 +1,12 @@
 fetch('./data/chapters.json')
     .then(response => response.json())
     .then(data => {
-        const serieName = "Arcane";
+        const serieName = data.serie;
 
-        insertChapter(data.acts[0], '.section-principal-1', serieName); // Acto 1
-        insertChapter(data.acts[1], '.section-principal-2', serieName); // Acto 2
-        insertChapter(data.acts[2], '.section-principal-3', serieName); // Acto 3
+        data.acts.forEach((act, index) => {
+            insertChapter(act, `.section-principal-${index + 1}`, serieName);
+            insertImages(act.images, `.galeria-${index + 1}`, act.name, act.id);
+        });
     })
     .catch(error => console.error("Error al cargar el JSON:", error));
 
@@ -16,6 +17,7 @@ function insertChapter(act, sectionSelector, serieName) {
         console.error(`No se encontró el contenedor para la sección '${sectionSelector}'`);
         return;
     }
+
     const actTitle = document.createElement('h2');
     actTitle.classList.add('title');
     actTitle.textContent = `${serieName} - ${act.name}`;
@@ -36,5 +38,37 @@ function insertChapter(act, sectionSelector, serieName) {
         `;
 
         chaptersContainer.appendChild(actContainer);
+    });
+}
+
+function insertImages(images, sectionSelector, galleryName, id) {
+    const galleryContainer = document.querySelector(sectionSelector);
+
+    if (!galleryContainer) {
+        console.error(`No se encontró el contenedor para la sección '${sectionSelector}'`);
+        return;
+    }
+
+    const galleryTitle = document.createElement('h2');
+    galleryTitle.classList.add('title');
+    galleryTitle.textContent = `Galería: ${galleryName}`;
+    galleryContainer.appendChild(galleryTitle);
+
+    const galleryCreator = document.createElement('div');
+    galleryCreator.classList.add('galeria__imagenes-' + id);
+
+    galleryContainer.appendChild(galleryCreator);
+
+    images.forEach((img, index) => {
+        const imgContainer = document.createElement('div');
+        imgContainer.classList.add('img-acto-' + id + '-' + index);
+
+        imgContainer.innerHTML = `
+            <a class="image-link" href="${img.image}" data-lightbox="gallery-${id}" data-title="${img.img_title}">
+                <img class="image" src="${img.miniature}" alt="${img.alt}" />
+            </a>
+        `;
+
+        galleryCreator.appendChild(imgContainer);
     });
 }
