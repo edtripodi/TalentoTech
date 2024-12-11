@@ -1,5 +1,5 @@
 # TalentoTech
-Pre-entrega del Proyecto para Talento Tech (Curso de JS)
+Pre-entrega del Proyecto para Talento Tech (Curso de JavaScript para frontend)
 
 # Proyecto Arcane
 Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer este proyecto, basado en la primera temporada de esta serie.
@@ -20,6 +20,9 @@ Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer es
 - **JavaScript**: Utiliza JavaScript para generar contenido dinámico.
 - **Git**: Utiliza Git para controlar los cambios en el código.
 - **GitHub**: Utiliza GitHub para alojar el código y gestionar las contribuciones.
+
+## Imágenes y videos
+Las imágenes y videos utilizados en el proyecto fueron extraídos de la página oficial de Arcane, disponible en [este enlace](https://www.arcane.com/es-mx/) (antes de la actualización de 2024 para la temporada 2) siendo Riot Games, Inc. los propietarios de los derechos de autor.
 
 ## Estructura del proyecto
 - **index.html**: Es la página de inicio del sitio web.
