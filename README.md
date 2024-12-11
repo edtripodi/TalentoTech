@@ -27,10 +27,10 @@ Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer es
 - **segunda_temporada.html**: Es la página de la presentación de la segunda temporada de Arcane.
 - **info.html**: Es la página de información del sitio web. En ella podremos encontrar más información sobre Arcane, como Información general, Sinópsis, Reparto, Banda sonora, Documentales, Críticas, Ranking, Premios, etc.
 - **contacto.html**: Es la página de Contacto del sitio web, donde podremos enviar nuestros comentarios y sugerencias.
-- **css**: Contiene los archivos CSS para la página.
-- **js**: Contiene los archivos JavaScript para la página.
-- **images**: Contiene las imágenes utilizadas en la página.
-- **data**: Contiene los archivos JSON para la página.
+- **/css**: Contiene los archivos CSS para la página.
+- **/js**: Contiene los archivos JavaScript para la página.
+- **/images**: Contiene las imágenes utilizadas en la página.
+- **/data**: Contiene los archivos JSON para la página.
 
 ## Como ejecutar el proyecto
 Para ejecutar el proyecto, sigue los siguientes pasos:
