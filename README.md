@@ -13,6 +13,7 @@ Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer es
 - **Animaciones**: Se han incluido animaciones para los elementos de la página, como los botones, los trailers, etc.
 - **Galería de imágenes**: Se ha implementado una galería de imágenes para cada temporada, con la capacidad de mostrar una imagen en una ventana modal mediante la biblioteca Lightbox Plus.
 - **JavaScript**: Se ha implementado JavaScript para la página de capítulos, en la cuál todo el contenido es generado dinámicamente a partir de un archivo JSON.
+- **Diseño responsivo**: El diseño está diseñado para ser responsivo, lo que significa que se adapta a diferentes tamaños de pantalla y dispositivos (Mobile y Desktop).
 
 ## Tecnologías utilizadas
 - **HTML5**: Utiliza etiquetas HTML5 recomendadas para estructurar la página.
