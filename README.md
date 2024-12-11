@@ -12,7 +12,7 @@ Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer es
 - **Multimedia**: Incluye imágenes de la serie en varias páginas del sitio web. También se incluyen iframes para los trailers de las temporadas; y un background animado (video) para la página de inicio.
 - **Animaciones**: Se han incluido animaciones para los elementos de la página, como los botones, los trailers, etc.
 - **Galería de imágenes**: Se ha implementado una galería de imágenes para cada temporada, con la capacidad de mostrar una imagen en una ventana modal mediante la biblioteca Lightbox Plus.
-- **JavaScript**: Se ha implementado JavaScript para la página de capítulos, en la cuál todo el contenido es generado dinámicamente a partir de un archivo JSON.
+- **JavaScript**: Se ha implementado JavaScript para las páginas de capítulos y tienda, en la cuál todo el contenido es generado dinámicamente a partir de un archivo JSON.
 - **Diseño responsivo**: El diseño está diseñado para ser responsivo, lo que significa que se adapta a diferentes tamaños de pantalla y dispositivos (Mobile y Desktop).
 
 ## Tecnologías utilizadas
@@ -30,6 +30,7 @@ Las imágenes y videos utilizados en el proyecto fueron extraídos de la página
 - **capitulos.html**: Es la página de capítulos del sitio web, separados por temporadas, con sus respectivas galerías de imágenes.
 - **segunda_temporada.html**: Es la página de la presentación de la segunda temporada de Arcane.
 - **info.html**: Es la página de información del sitio web. En ella podremos encontrar más información sobre Arcane, como Información general, Sinópsis, Reparto, Banda sonora, Documentales, Críticas, Ranking, Premios, etc.
+- **store.html**: Es la página de la tienda de Arcane, en la que se pueden adquirir productos del universo de League of Legends.
 - **contacto.html**: Es la página de Contacto del sitio web, donde podremos enviar nuestros comentarios y sugerencias.
 - **/css**: Contiene los archivos CSS para la página.
 - **/js**: Contiene los archivos JavaScript para la página.
