@@ -39,7 +39,7 @@ Las imágenes y videos utilizados en el proyecto fueron extraídos de la página
 
 ## Como ejecutar el proyecto
 Para ejecutar el proyecto, sigue los siguientes pasos:
-Se puede acceder a la página del proyecto mediante [este enlace](https://edamiantripodi.github.io/TalentoTech/).
+Se puede acceder a la página del proyecto mediante [este enlace](https://xkensho47.github.io/TalentoTech/).
 
 ## Autor
 [E. Damián Tripodi](https://edamiantripodi.github.io/)
