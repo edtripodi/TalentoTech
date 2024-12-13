@@ -466,7 +466,7 @@ h4 {
     height: 82.5vh;
 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
     flex-direction: column;
     gap: .5rem;
@@ -475,6 +475,7 @@ h4 {
 }
 
 .title {
+    width: 100%;
     text-transform: uppercase;
     vertical-align: middle;
     text-align: center;
@@ -486,22 +487,19 @@ h4 {
 .capitulo {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 75%;
+    justify-content: start;
+    width: 70%;
     height: 27.5vh;
-
-    position: relative;
-    left: -10vw;
 
     padding: 0 2rem;
 }
 
 .capitulo__img {
-    width: auto;
+    width: clamp(15vw, 20rem, 25vw);
 }
 
 .capitulo__img img {
-    width: clamp(10vw, 15vw, 20vw);
+    width: clamp(15vw, 20rem, 25vw);
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
@@ -521,12 +519,13 @@ h4 {
 
 .capitulo__netflix a {
     /* text-decoration: none; */
-    font-size: 1.5rem;
+    font-size: clamp(16px, 1.25vw, 24px);
     font-weight: 600;
+    text-wrap: balance;
 }
 
 .capitulo__netflix a i {
-    font-size: 1.5rem;
+    font-size: clamp(16px, 1.25vw, 24px);
     color: var(--color-text);
     margin-left: .5rem;
 }
@@ -545,10 +544,11 @@ h4 {
 }
 
 .capitulo__descripcion {
+    width: 100%;
     color: var(--color-text);
-    font-size: 1.25rem;
+    font-size: clamp(16px, 1.15vw, 24px);
     font-weight: 400;
-    line-height: 2rem;
+    text-wrap: balance;
 }
 
 .capitulo:hover {
