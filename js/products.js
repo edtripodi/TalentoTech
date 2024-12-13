@@ -22,20 +22,22 @@ function insertDOM(productos) {
                     </div>
                     <div class="card-data">
                         <h5 id="nombre${producto.id}" name="nombre" class="card-title">${producto.nombre}</h5>
-                        <button id="btnMasInfo${producto.id}" class="button" onclick="masInfo('${producto.id}')" type="button">+Info</button>
                         <p class="card-subtitle" id="description${producto.id}">
                             ${producto.descripcion}
-                            <br><br>
+                            <br>
                             <button class="ocultarInfo" id="ocultarInfo${producto.id}"><i class="fa-solid fa-xmark"></i></button>
                         </p>
                         <p class="card-subtitle" id="tipo${producto.id}">
                             ${producto.tipo}
                         </p>
                     </div>
+                    <div class="botonera" id="botonera${producto.id}-1">
+                        <button id="btnMasInfo${producto.id}" class="button" onclick="masInfo('${producto.id}')" type="button">+Info</button>
+                    </div>
                     <div class="card-price-data">
                         <h5 id="precio${producto.id}" name="precio" class="card-price">${producto.precio} $</h5>
                     </div>
-                    <div class="botonera" id="botonera${producto.id}">
+                    <div class="botonera" id="botonera${producto.id}-2">
                         <button onclick="comprar('${producto.id}')" class="button" value="Comprar" type="button">Comprar</button>
                     </div>
                 </div>
@@ -51,19 +53,23 @@ function masInfo(id){
     let desc = "description"+idx;
     let btn = "btnMasInfo"+idx;
     let ocultar = "ocultarInfo"+idx;
+    let btnDiv = "botonera"+idx+"-1";
     
     let btnMasInfo = document.getElementById(btn);
     let descripcion = document.getElementById(desc);
     let ocultarInfo = document.getElementById(ocultar);
+    let botonera = document.getElementById(btnDiv);
     
     btnMasInfo.addEventListener("click", (e) => {
         e.preventDefault();
         btnMasInfo.classList.add("invisible");
+        botonera.classList.add("invisible");
         descripcion.classList.add("visible");
     })
     ocultarInfo.addEventListener("click", (e) => {
         e.preventDefault();
         btnMasInfo.classList.remove("invisible");
+        botonera.classList.remove("invisible");
         descripcion.classList.remove("visible");
     })
 }
