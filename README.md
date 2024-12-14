@@ -18,7 +18,9 @@ Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer es
 ## Tecnologías utilizadas
 - **HTML5**: Utiliza etiquetas HTML5 recomendadas para estructurar la página.
 - **CSS3**: Utiliza Flexbox y Grid para crear diseños responsivos.
+- **Bootstrap**: Utiliza Bootstrap para crear un modal para ver el carrito de compras.
 - **JavaScript**: Utiliza JavaScript para generar contenido dinámico.
+- **LocalStorage**: Utiliza LocalStorage para almacenar la información del usuario en el navegador.
 - **Git**: Utiliza Git para controlar los cambios en el código.
 - **GitHub**: Utiliza GitHub para alojar el código y gestionar las contribuciones.
 
