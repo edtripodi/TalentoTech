@@ -57,7 +57,8 @@ body::-webkit-scrollbar-thumb,
     background-color: var(--color-text);
 }
 
-.container {
+.container,
+.container-2 {
     width: 100vw;
     min-height: 100vh;
 
@@ -1104,7 +1105,7 @@ cite {
 
 .productos {
     width: 100%;
-    height: 85vh;
+    height: auto;
 
     display: flex;
     align-items: center;
@@ -1112,8 +1113,13 @@ cite {
 
     padding: 0 3%;
 }
+.verCarrito{
+    position: fixed;
+    top: 50vh;
+    right: 2.5vw;
+}
 
-.card_container {
+.cardd_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1122,7 +1128,7 @@ cite {
     margin: auto;
 }
 
-.card {
+.cardd {
     width: clamp(300px, 20%, 400px);
     height: clamp(500px, auto, 700px);
 
@@ -1140,11 +1146,11 @@ cite {
     box-shadow: 0 4px 8px 0 var(--color-primaryT), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card:hover {
+.cardd:hover {
     box-shadow: 0 8px 16px 0 var(--color-primaryT), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-form {
+.cardd-form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1154,11 +1160,11 @@ cite {
     height: 100%;
 }
 
-.card-form div {
+.cardd-form div {
     width: 100%;
 }
 
-.card-content {
+.cardd-content {
     height: 100%;
 
     display: flex;
@@ -1168,7 +1174,7 @@ cite {
     gap: .75rem;
 }
 
-.card-image {
+.cardd-image {
     width: 100%;
     height: auto;
 
@@ -1182,13 +1188,13 @@ cite {
     margin-bottom: 1rem;
 }
 
-.card-image img {
+.cardd-image img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
 }
 
-.card-data {
+.cardd-data {
     width: 100%;
     height: 20%;
     display: flex;
@@ -1198,7 +1204,7 @@ cite {
     gap: .5rem;
 }
 
-.card-price-data {
+.cardd-price-data {
     width: 100%;
     height: 10%;
     display: flex;
@@ -1206,9 +1212,9 @@ cite {
     justify-content: center;
 }
 
-.card-title,
-.card-subtitle,
-.card-price {
+.cardd-title,
+.cardd-subtitle,
+.cardd-price {
     color: var(--color-gold);
     text-align: center;
     text-transform: uppercase;
@@ -1216,13 +1222,13 @@ cite {
     text-wrap: balance;
 }
 
-.card-title {
+.cardd-title {
     height: 2.2rem;
     font-size: clamp(16px, 1.1rem, 24px);
     font-weight: 600;
 }
 
-.card-subtitle {
+.cardd-subtitle {
     height: 5rem;
     display: none;
     font-size: 1rem;
@@ -1231,11 +1237,11 @@ cite {
 
 }
 
-.card-subtitle.visible {
+.cardd-subtitle.visible {
     display: inline-block;
 }
 
-.card-price {
+.cardd-price {
     font-size: 1.75rem;
     font-weight: 700;
 }
@@ -1556,6 +1562,13 @@ button[type="submit"] {
     font-size: .75rem;
 }
 
+.modal-lg, .modal-xl {
+    --bs-modal-width: 1000px;
+}
+.btn {
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-padding-y: 0.12rem;
+}
 
 @media (max-width: 1200px) {
 
@@ -1737,6 +1750,7 @@ button[type="submit"] {
     .section-principal-1,
     .section-principal-2,
     .section-principal-3 {
+        align-items: center;
         height: auto;
         padding: 0;
         gap: 1rem;
@@ -1755,7 +1769,8 @@ button[type="submit"] {
     }
 
     .capitulo__img {
-
+        width: clamp(250px, 100%, 325px);
+        height: clamp(160px, 100%, 200px);
     }
 
     .capitulo__img img {
@@ -1902,33 +1917,33 @@ button[type="submit"] {
         display: none;
     }
 
-    .card_container {
+    .cardd_container {
         flex-direction: column;
     }
 
-    .card {
+    .cardd {
         width: 70%;
         height: 70vh;
         
         padding: 3%;
         margin-bottom: 1rem;
     }
-    .card>form{
+    .cardd>form{
         width: 100%;
         height: 100%;
     }
 
-    .card-image{
+    .cardd-image{
         width: 100%;
         max-height: 60%;
         padding: 0;
     }
 
-    .card-title {
+    .cardd-title {
         font-size: 1rem;
     }
 
-    .card-subtitle {
+    .cardd-subtitle {
         width: 100%;
         font-size: .75rem;
     }
@@ -1939,12 +1954,12 @@ button[type="submit"] {
         box-shadow: var(--color-gold) 2px 2px 7px;
     }
 
-    .card-price {
+    .cardd-price {
         font-size: 1.25rem;
         margin: .5rem 0;
     }
 
-    .card-price-data{
+    .cardd-price-data{
         height: auto;
     }
     .button{
