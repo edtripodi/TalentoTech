@@ -657,34 +657,45 @@ hr {
     line-height: 3.2rem;
 }
 
-.history1 {
-    background-image: url(../images/history/00-background.jpg);
-}
-
-.history2 {
-    background-image: url(../images/history/01-piltover.jpg);
-}
-
-.history3 {
-    background-image: url(../images/history/02-zaun.jpg);
-}
-
 .history1,
 .history2,
 .history3 {
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 0;
-    left: 0;
-
     width: 100%;
     height: 100vh;
+}
+.history1::before, 
+.history2::before, 
+.history3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+    z-index: -1;
+}
+
+.history1::before {
+    background-image: url(../images/history/00-background.jpg);
+    background-position: top;
+    height: 300vh;
+    opacity: 0.75;
+}
+
+.history2::before {
+    background-image: url(../images/history/01-piltover.jpg);
+    top: 100vh;
+}
+
+.history3::before {
+    background-image: url(../images/history/02-zaun.jpg);
+    top: 200vh;
 }
 
 .history__container {
@@ -758,6 +769,9 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* position: relative;
+    top: 2vh; */
 }
 
 .articulo__info {
@@ -799,20 +813,29 @@ hr {
 
     padding: 3%;
 }
-
-.section2-background,
-.section2-background2 {
+.section2-background::before, 
+.section2-background2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 92vh;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+}
+.section2-background2::before {
+    top: auto;
+    bottom: 0;
 }
 
-.section2-background {
+.section2-background::before {
     background-image: url(../images/history/01-piltover.jpg);
 }
 
-.section2-background2 {
+.section2-background2::before {
     background-image: url(../images/history/02-zaun.jpg);
 }
 
