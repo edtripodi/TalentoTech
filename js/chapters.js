@@ -32,7 +32,7 @@ function insertChapter(act, sectionSelector, serieName) {
                 <img src="${chapter.image}" alt="${chapter.title}">
             </div>
             <div class="capitulo__netflix">
-                <a href="${chapter.link}" target="_blank">${chapter.title} <i class="fa-solid fa-up-right-from-square" style="color: #ffffff;"></i></a>
+                <a href="${chapter.link}" target="_blank">${chapter.title} <i class="fa-solid fa-up-right-from-square"></i></a>
                 <p class="capitulo__descripcion">${chapter.description}</p>
             </div>
         `;

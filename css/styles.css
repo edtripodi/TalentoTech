@@ -14,8 +14,12 @@
     --boton-1: rgb(45, 100, 135);
     --boton-2: rgb(27, 51, 36);
     --color-bg: rgb(0, 0, 0);
+    --color-bgT: rgba(0, 0, 0, .5);
+    --color-goldH : rgb(255, 206, 81);
     --color-gold: rgb(218, 165, 32);
+    --color-goldT : rgba(218, 165, 32, .30);
     --color-text: rgb(255, 255, 255);
+    --color-textT: rgba(255, 255, 255, .30);
     --color-primaryT: rgba(0, 75, 133, .30);
 }
 
@@ -187,7 +191,7 @@ main {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Oscurece la imagen */
+    
     z-index: 1;
 }
 
@@ -287,13 +291,26 @@ main {
     display: none;
     opacity: 0;
 
-    background-image: url(../images/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
     padding: 5rem 0;
 
     transition: opacity .5s ease-in-out;
+}
+.secundario::before{
+    content: '';    
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: .75;
+    z-index: -1;
 }
 
 .secundario .trailers {
@@ -428,12 +445,24 @@ h4 {
 
     position: absolute;
     top: 0;
-    background-image: url(../images/info-media/Arc_FinalTrailer_Thumb_Textless.jpg);
-    background-repeat: no-repeat;
-    background-size: fill;
-    background-attachment: fixed;
-    background-position-x: center;
 
+    z-index: -1;
+}
+.background-capitulos::before{
+    content: '';    
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -7.5vh;
+    left: 0;
+
+    background-image: url(../images/info-media/Arc_FinalTrailer_Thumb_Textless.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: .75;
     z-index: -1;
 }
 
@@ -481,7 +510,7 @@ h4 {
     vertical-align: middle;
     text-align: center;
 
-    color: var(--color-text);
+    color: var(--color-gold);
     font-size: 1.75rem;
 }
 
@@ -527,17 +556,17 @@ h4 {
 
 .capitulo__netflix a i {
     font-size: clamp(16px, 1.25vw, 24px);
-    color: var(--color-text);
+    color: var(--color-gold);
     margin-left: .5rem;
 }
 
 .capitulo__netflix a:hover {
     cursor: pointer;
-    text-shadow: 1px 3px 15px var(--color-text);
+    text-shadow: 3px 3px 10px var(--color-gold);
 }
 
 .capitulo__netflix a:link {
-    color: var(--color-text);
+    color: var(--color-gold);
 }
 
 .capitulo__netflix a:visited {
@@ -586,7 +615,7 @@ h4 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.75rem;
-    color: var(--color-text);
+    color: var(--color-gold);
 }
 
 /* Galería: Acto I */
@@ -1352,15 +1381,26 @@ cite {
     top: 7.5vh;
     margin-bottom: 8vh;
 
-    color: var(--primary);
+    color: var(--color-gold);
     text-shadow: var(--color-bg) 5px 7px 15px;
 }
 
-.background-contact {
+.main-contact::before{
+    content: '';    
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -7.5vh;
+    left: 0;
+
     background-image: url(../images/info-media/Arcane_Official_Trailer_Textless.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position-x: center;
+
+    opacity: .75;
+    z-index: -1;
 }
 
 .main-contact>* {
@@ -1372,7 +1412,7 @@ cite {
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
-    color: var(--primary);
+    color: var(--color-gold);
     font-size: 2.25rem;
 
 }
@@ -1387,12 +1427,12 @@ cite {
     min-height: 65vh;
     padding: 3rem 2rem;
 
-    border: solid var(--primary) 0.35rem;
+    border: solid var(--color-gold) 0.35rem;
     border-radius: 50px;
 }
 
 .formulario {
-    background-color: var(--color-primaryT);
+    background-color: var(--color-bgT);
 }
 
 .contact-form>* {
@@ -1439,7 +1479,7 @@ cite {
 .form-group>textarea {
     width: 100%;
 
-    border: solid var(--primary) 2px;
+    border: solid var(--color-gold) 2px;
     border-radius: 15px;
     font-size: 1rem;
 
@@ -1451,7 +1491,7 @@ cite {
 .form-group>input[type="email"]:focus,
 .form-group>input[type="tel"]:focus,
 .form-group>textarea:focus {
-    border-color: var(--boton-1);
+    border-color: var(--color-goldH);
     outline: none;
 }
 
@@ -1479,8 +1519,8 @@ button[type="submit"] {
 }
 
 .contact-form>button {
-    background-color: var(--primary);
-    color: var(--color-text);
+    background-color: var(--color-gold);
+    color: var(--color-bg);
     border: none;
     border-radius: 15px;
     font-size: 1.2rem;
@@ -1492,7 +1532,7 @@ button[type="submit"] {
 }
 
 .contact-form>button:hover {
-    background-color: var(--boton-1);
+    background-color: var(--color-goldH);
 }
 
 /* FOOTER */
@@ -1892,6 +1932,13 @@ button[type="submit"] {
         width: 100%;
         height: 100%;
     }
+    .galeria__imagenes-i div img:hover,
+    .galeria__imagenes-ii div img:hover,
+    .galeria__imagenes-iii div img:hover {
+        transform: scale(1);
+        transition: none;
+    }
+
 
     /* HISTORIA ----------------------------------------------------------------*/
     .history__container {
