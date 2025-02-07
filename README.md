@@ -1,5 +1,5 @@
 # TalentoTech
-Pre-entrega del Proyecto para Talento Tech (Curso de JavaScript para frontend)
+Entrega Final del Proyecto para Talento Tech (Curso de JavaScript para frontend)
 
 # Proyecto Arcane
 Aprovechando la nueva temporada de Arcana, esta temática me inspiró a hacer este proyecto, basado en la primera temporada de esta serie.
