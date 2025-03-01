@@ -41,10 +41,10 @@ Las imágenes y videos utilizados en el proyecto fueron extraídos de la página
 
 ## Como ejecutar el proyecto
 Para ejecutar el proyecto, sigue los siguientes pasos:
-Se puede acceder a la página del proyecto mediante [este enlace](https://xkensho47.github.io/TalentoTech/).
+Se puede acceder a la página del proyecto mediante [este enlace](https://edtripodi.github.io/TalentoTech/).
 
 ## Autor
-[E. Damián Tripodi](https://edamiantripodi.github.io/)
+[E. Damián Tripodi](https://edtripodi.github.io/)
 
 ## Licencia
-Este proyecto está licenciado bajo la licencia Mozilla Public License 2.0. Para obtener más información, visite la [página de licencia](https://github.com/edamiantripodi/TalentoTech/blob/main/LICENSE).
+Este proyecto está licenciado bajo la licencia Mozilla Public License 2.0. Para obtener más información, visite la [página de licencia](https://github.com/edtripodi/TalentoTech/blob/main/LICENSE).
